@@ -18,7 +18,7 @@ stars.forEach(star => {
         // Redirection en fonction de l'étoile cliquée
         if (rating == 5) {
             // Redirection vers un lien personnalisé pour 5 étoiles
-            window.location.href = "https://www.google.com/search?rlz=1C1ONGR_frFR974FR974&q=Feltain%20Elagage%20Toulouse%20M%C3%A9tropole%20Avis&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDcxNTI2MzUwNzI2NbCwMDe2NNjAyPiKUcMtNackMTNPwTUnMT0xPVUhJL80J7-0OFXB9_DKkqL8gvycVAXHssziRaxEKwUAGzRONnEAAAA&rldimm=17452365072350887390&tbm=lcl&hl=fr&sa=X&ved=0CBoQ9fQKKABqFwoTCJD8r8m314kDFQAAAAAdAAAAABAG&biw=1536&bih=776&dpr=1.25#lkt=LocalPoiReviews&lrd=0x12aea792a185d38d:0xf233419113e8bdde,3,,,,"; // Remplace ce lien par ton propre choix
+            window.location.href = "https://www.google.com/search?rlz=1C1ONGR_frFR974FR974&hl=fr&biw=1536&bih=776&q=Feltain%20Elagage%20Toulouse%20M%C3%A9tropole%20Avis&ludocid=17452365072350887390&ibp=gwp%3B0%2C7&sa=X&ved=0CBoQ9fQKKABqFwoTCODh0Iq814kDFQAAAAAdAAAAABAF#lkt=LocalPoiReviews&lpg=cid:CgIgAQ%3D%3D"; // Remplace ce lien par ton propre choix
         } else {
             // Redirection vers la page de feedback pour 1 à 4 étoiles
             window.location.href = "feedback.html";
